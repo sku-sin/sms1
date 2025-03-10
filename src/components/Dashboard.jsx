@@ -69,22 +69,12 @@ const Dashboard = () => {
                 <td className="table-cell">{student.address}</td>
                 <td className="table-cell">{student.subjects.join(", ")}</td>
                 <td className="table-cell">
-                  {/* <button
-                    onClick={() => handleEditStudent(student)}
-                    className="btn edit-btn"
-                  >
-                    Edit
-                  </button> */}
-
                   <FaPencilAlt
                     className="subject-edit-icon"
                     onClick={() => handleEditStudent(student)}
                   />
 
-                  {/* <button onClick={() => handleDelete(student.id)} className="btn delete-btn">
-                    Delete
-                  </button> */}
-
+                  {/* comment */}
                   <FaTrashAlt
                     className="subject-delete-icon"
                     onClick={() => handleDelete(student.id)}
